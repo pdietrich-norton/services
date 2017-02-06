@@ -1,0 +1,44 @@
+{
+  "port": 3000,
+  "security": {
+    "tokenLife" : 3600,
+    "clientAllowed": ""
+  },
+  "mongoose": {
+    "conn": "mongodb://localhost:27017/",
+    "dbAuth": "nodeauth",
+    "dbIig": "nodeiig"
+  },
+  "default": {
+    "api": {
+      "version" : "v1"
+    },
+    "search": {
+      "clientKey": "8fd00c47-8378-455c-a1bc-e4f1f1704b87",
+      "searchUri": "https://wwnorton.groupbycloud.com/api/v1/search?pretty",
+      "refinementsUri": "https://wwnorton.groupbycloud.com/api/v1/search/refinements",
+      "collection": "bookSearchProduction",
+      "area": "bookSearchProductionGBTuning",
+      "fields": "[\"*\"]",
+      "pruneRefinements": "false",
+      "skip": "0",
+      "pageSize": "15",
+      "disableAutocorrection": true,
+      "matchStrategyName": "default",
+      "configurableParams": ["collection",
+        "area",
+        "fields",
+        "pruneRefinements",
+        "skip",
+        "pageSize",
+        "disableAutocorrection",
+        "matchStrategyName",
+        "refinements",
+        "query",
+        "navigationName",
+        "sort[field]",
+        "sort[order]"
+      ]
+    }
+  }
+}
