@@ -44,5 +44,57 @@
       "sort[field]",
       "sort[order]"
     ]
+  },
+  "aws": {
+    "keypairFileName": "[private]",
+    "keypairId": "[private]",
+    "expiryTime": 60000,
+    "s3Buckets": [
+      {
+        "name": "nortoniigprotectedassets",
+        "status": "protected",
+        "distrib": "https://d2jmiak0snjk6x.cloudfront.net/"
+      },
+      {
+        "name": "nortonreaderassets",
+        "status": "public",
+        "distrib": "https://dk93p46l5vp3c.cloudfront.net/"
+      },
+      {
+        "name": "nortonappreaderiig",
+        "status": "public",
+        "distrib": "https://d2ybxpb8b9c7qj.cloudfront.net/"
+      },
+      {
+        "name": "nortoniigpublicassets",
+        "status": "public",
+        "distrib": "https://d1lld3n5yxyqew.cloudfront.net/"
+      },
+      {
+        "name": "wwnorton.college.public",
+        "status": "public",
+        "distrib": "https://d1lexza0zk46za.cloudfront.net/"
+      },
+      {
+        "name": "wwnorton.college.protected",
+        "status": "protected",
+        "distrib": "https://dpdvqepqt7kza.cloudfront.net/"
+      },
+      {
+        "name": "wwnorton.common.public",
+        "status": "public",
+        "distrib": "https://dz0xuupaj9dvo.cloudfront.net/"
+      },
+      {
+        "name": "wwnorton.app.public",
+        "status": "public",
+        "distrib": "https://dsbst55b1909i.cloudfront.net/"
+      },
+      {
+        "name": "wwnorton.general.protected",
+        "status": "protected",
+        "distrib": "https://d3o9f5zhy0rezv.cloudfront.net/"
+      }
+    ]
   }
 }
